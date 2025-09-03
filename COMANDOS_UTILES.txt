@@ -1,1 +1,15 @@
+++ Actualizar paquetes
+sudo dnf update
 
+++ Instalar paquetes
+sudo dnf install nombre_paquete
+
+++ Eliminar paquetes
+sudo dnf remove nombre_paquete
+
+++ Limpiar caché
+sudo dnf clean all
+
+++ Actualizar distribución completa
+sudo dnf system-upgrade download --releasever=XX
+sudo dnf system-upgrade reboot
