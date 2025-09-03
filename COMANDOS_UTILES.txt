@@ -13,3 +13,38 @@ sudo dnf clean all
 ++ Actualizar distribución completa
 sudo dnf system-upgrade download --releasever=XX
 sudo dnf system-upgrade reboot
+
+++ Instalar libreoffice
+sudo dnf install libreoffice
+
+++ Instalar flatpak
+sudo dnf install flatpak
+
+++ Instalar shotwell
+sudo dnf install shotwell
+
+++ Instalar OBS Studio
+sudo dnf install obs-studio
+
+++ Instalar Blender
+sudo dnf install blender
+
+++ Instalar virtualbox
+sudo dnf install VirtualBox
+
+++ Instalar qbitorrent
+sudo dnf install qbittorrent
+
+++ Instalar stacer
+sudo snap install stacer
+
+++ Instalar visual studio code
+sudo dnf install code
+
+++ Instalar vlc
+sudo dnf install vlc
+
+++ Instalar freetube
+sudo dnf install snapd
+sudo ln -s /var/lib/snapd/snap /snap
+sudo snap install freetube
